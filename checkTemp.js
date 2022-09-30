@@ -1,4 +1,4 @@
-let checkTemp = 0
+function checkTemp (checkTemp) {
 if (checkTemp >= 0 && checkTemp <= 20) {
     console.log("-1")
 }
@@ -8,4 +8,4 @@ if (checkTemp >= 0 && checkTemp <= 20) {
         if (checkTemp >= 41 && checkTemp <= 60) {
             console.log("1")
         }
-    
+}
